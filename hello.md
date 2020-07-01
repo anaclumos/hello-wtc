@@ -2,7 +2,7 @@
 
 * `git clone https://github.com/anaclumos/hello-wtc.git` 저장소를 복제한다
 * `git add file` 파일을 Stage한다
-* `git commit -m` Stage된 파일들의 변화를 master 브랜치에 기록한다
+* `git commit -m` Stage된 파일들의 변화를 브랜치에 기록한다 (`-m`은 "메시지"라는 뜻! 한줄 메시지를 작성하는 것으로, 안 좋은 개발 습관이다)
 * `git push origin master` 저장소의 정보를 origin 저장소의 master 브랜치에 업로드한다
 * `git pull origin master` origin 저장소의 master 브랜치에서 정보를 다운로드한다
 
